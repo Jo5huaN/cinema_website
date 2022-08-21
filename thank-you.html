@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <link rel="stylesheet" href="thank-you.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav>
+      
+        <a href="about-us.html" >About Us</a>
+        
+        <a href = "index.html" >Home</a> 
+      
+        <img class = "card__image2" src="images/eye-candy-logo2.png" alt="eye-candy-logo"> 
+      
+        <a href = "screeningInfo.html">Screening Info </a>
+      
+        <a href = "movie's.html">Movies</a> 
+      </nav>
+
+    <main>
+    
+         
+        <div id="thank-you">   
+
+       
+        <img src="images/thank-you .webp" alt="thank-you img">
+        <!-- image taken from google -->
+       
+
+       \
+        </div>  
+        <div style="text-align:center;">
+            <h1>Thank you!</h1>
+            <p>Your submission has been received.</p>
+            <p>This page will redirect to the homepage in <span id="timer"></span>s.</p>
+            </div>
+            <script type="text/javascript">
+            var count = 20;
+            var redirect = "index.html";
+            function countDown() {
+            if(count >= 0){
+            document.getElementById("timer").innerHTML = count--;
+            setTimeout("countDown()", 1000);
+            }else{
+            window.location.href = redirect;
+            }
+            }
+            countDown();
+            </script>
+   
+    </main>
+    <footer>
+        <h2>Eye Candy Cinema</h2>
+        
+        <a href="privacy-policy.html" >Privacy policy</a>
+        <p>All rights reserved</p>
+        <p>I do not own the rights to these images</p>
+        <p> 64 Queens Street Auckland 1010</p>
+       
+    </footer>
+</body>
+</html>

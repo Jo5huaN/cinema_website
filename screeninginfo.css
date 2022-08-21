@@ -1,0 +1,148 @@
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: grey;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+body {
+    background-color: rgb(27, 26, 26);
+    color: white;
+    font-family: 'Orelega One', cursive;
+
+  }
+  h1{
+
+    text-align: center;
+    font-size: 40px;
+   }
+ 
+ nav{
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 200px;
+    padding: 4%;
+    font-size: 34px;
+}
+
+header img{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    height: 900px;
+    width: 100%;
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    
+    
+    /* color:                    hsla(210, 100%, 100%, 0.9) !important;
+    background:               hsla(210, 100%,  50%, 0.5) !important;
+    outline:    solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
+
+    box-shadow: none !important; */
+}
+
+
+table{
+  width: 900px;
+  font-size: 25px;
+}
+th{
+  text-align: left;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+  border: 5px;
+  border-collapse: collapse;
+
+}
+#movie-poster-1 img{
+    display: flex;
+    align-items: center;
+    flex-direction: colomn;
+    height: 400px;
+    width: 23%;
+    
+}
+
+#movie-poster-2 img{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width: 23%;
+  
+}
+#movie-poster-3 img{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+  width: 23%;
+  
+}
+
+footer{
+    padding-top: 10%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 1%;
+}
+
+
+ 
+
+
+
+            
+
+   
+    /* *:not(path):not(g) {
+        color:                    hsla(210, 100%, 100%, 0.9) !important;
+        background:               hsla(210, 100%,  50%, 0.5) !important;
+        outline:    solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
+    
+        box-shadow: none !important;
+
+        i used this code to see the layout of the page 
+    } */
+
+
